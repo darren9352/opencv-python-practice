@@ -50,5 +50,7 @@ while True:
     #response = requests.post(url, files=files, headers=headers)
     #print(response.status_code)
     #print(response.text)
+
+    
     cv2.imshow('ImageWindow',frame)
     cv2.waitKey(1)
